@@ -44,4 +44,16 @@ Sử dụng hàm tìm ước. Sau mỗi 1 vòng lặp thì nhân biến
 7. In ra màn hình chuỗi "Tich cac uoc do: " + tichUoc
 // Kết thúc chương trình
 */
+    /*
+    Viết chương trình nhập vào từ bàn phím 1 số nguyên dương n bất kì. Tìm tất cả các ước của số n
+    sau đó tính tích các ước số đó và hiển thị ra màn hình
+Đầu vào: Số nguyên dương n
+Đầu ra: Hiển thị kết quả: "Cac uoc cua so [n] la : .....  "- "Tich cac uoc do : [tich]"
+Ví Dụ: n = 10 => Hiển thị: "Cac uoc cua 10 la 1   2   5    10. Tich cac uoc do : 100".
+Ngôn ngữ sử dụng: Java
+Yêu cầu làm bài: Xử lý bài toán trong hàm main
+Gợi ý
+Gợi ý file Source.java
+Sử dụng hàm tìm ước. Sau mỗi 1 vòng lặp thì nhân biến tích với ước số đó.
+     */
 }
