@@ -22,6 +22,6 @@ Giả sử: Chữ 's' nhiều hơn chữ 't' => tiếng Anh-Anh, ngược lại 
 Đầu ra: Hiển thị “A-A” nếu có nhiều chữ “s” hơn và in ra “A-M” nếu có nhiều chữ “t” hơn.
 Nếu số lượng chữ “t” bằng chữ “s” in ra “A-A”
 VD: "School is the bored place. So you should go to the game centre. It is funny and very
-good for relaxing." => A-A
+good for relaxing." => A-A manhdz
 */
 }
