@@ -13,7 +13,7 @@ public class Bai1278_5_TimUocLeLNhat {
                 if (i > 0) {
                     kq = i;
                 }
-                System.out.println(kq);
+//                System.out.println(kq);
             }
         }
         System.out.println(kq);
