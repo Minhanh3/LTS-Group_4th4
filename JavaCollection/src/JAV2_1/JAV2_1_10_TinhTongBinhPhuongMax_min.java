@@ -1,6 +1,6 @@
 package JAV2_1;
 
-public class JA2_1_10_TinhTongBinhPhuongMax_min {
+public class JAV2_1_10_TinhTongBinhPhuongMax_min {
     public static void main(String[] args) {
         int a[] = {1,2,3,4,5};
         int min = a[0];

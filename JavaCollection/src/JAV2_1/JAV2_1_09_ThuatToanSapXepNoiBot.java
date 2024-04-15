@@ -1,6 +1,6 @@
 package JAV2_1;
 
-public class JA2_1_09_ThuatToanSapXepNoiBot {
+public class JAV2_1_09_ThuatToanSapXepNoiBot {
     public static void main(String[] args) {
         int a[] = {6, 2, 5, 1, 4, 3};
         for (int i = 0; i < a.length - 1; i++) {

@@ -1,6 +1,6 @@
 package JAV2_1;
 
-public class JA2_1_21_TinhDoDaiCuaChuoiTrongMangChuoi {
+public class JAV2_1_21_TinhDoDaiCuaChuoiTrongMangChuoi {
     public static void main(String[] args) {
         String arr[] = {"abc", "abcd", "abcde", "abcdef"};
         int tong[] = new int[arr.length];
