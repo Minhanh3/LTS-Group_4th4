@@ -246,4 +246,30 @@ Gợi ý
 Gợi ý file source.java
 Sử dụng hàm remove()
      */
+    /*
+    JA2_2_27: Kiểm tra 1 key có tồn tại trong map
+Cho hash map HM . Viết chương trình kiểm tra trong hashmap trên có chứa key bất kỳ hay không?
+Đầu vào: HashMap HM và 1 key bất kì
+Đầu ra: In ra HM có chứa key đó không?
+VD : HM : { K, V: 1 - Red, 2 - Green, 3 - Blue } và key = 4 => Không chứa key = 4
+Ngôn ngữ sử dụng: Java
+Yêu cầu làm bài: Xử lý bài toán trong hàm main
+Gợi ý
+Gợi ý file source.java
+Dùng hàm containsKey kiểm tra
+     */
+    /*
+    Cho 1 hashMap, tiến hành thêm vào hashMap các phần tử có key và
+    value lần lượt là: ("Viet Nam", "Ha Noi"), ("Hoa Ky", "Washington, D.C"),
+    ("Han Quoc", "Seoul"). Viết chương trình hiển thị các phần tử
+    của map đó theo nội dung: [Value] là thủ đô của [Key].
+Đầu vào: HashMap
+Đầu ra: Danh sách thủ đô tương ứng với Quốc gia
+Ví dụ: Ha Noi là thủ đô của Viet Nam...
+Ngôn ngữ sử dụng: Java
+Yêu cầu làm bài: Xử lý bài toán trong hàm main
+Gợi ý
+Gợi ý file source.java
+Sử dụng Iterator để duyệt map
+     */
 }
