@@ -9,7 +9,7 @@ public class Cau2 {
         String str = sc.nextLine();
         char a[] = str.toCharArray();
         Set<Character> lst = new LinkedHashSet<>();
-        for(int i=0;i<a.length;i++){
+        for (int i = 0; i < a.length; i++) {
             lst.add(a[i]);
         }
         StringBuilder sb = new StringBuilder();
