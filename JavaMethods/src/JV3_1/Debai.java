@@ -211,7 +211,7 @@ Gợi ý
 Gợi ý file source.java
 Sử dụng Math.
      */
-    /*
+    /*JA3_1_05: Lấy ra ký tự giữa chuỗi
  Viết hàm để hiển thị kí tự ở giữa chuỗi.
 - Đầu vào: Một chuỗi có chiều dài > 5
 - Đầu ra: Ký tự ở giữa chuỗi
@@ -224,4 +224,25 @@ Gợi ý file source.java
 Nếu độ dài của chuỗi là số lẻ sẽ có hai ký tự ở giữa.
 Nếu độ dài của chuỗi chẵn sẽ có một ký tự ở giữa.
      */
+    /*
+    JA3_1_07: Đếm khoảng trắng trong chuỗi.
+    Cho một chuỗi có chiều dài là ngẫu nhiên. Thực hiện viết hàm đếm xem chuỗi
+    đó có bao nhiêu khoảng trắng.
+Đầu vào: Chuỗi có chiều dài ngẫu nhiên
+Đầu ra: Số nguyên.
+VD : Tran Van A => Có 3 khoảng trắng
+     */
+/*
+JA3_1_17: Hàm xóa các phần tử có giá trị lẻ
+Viết hàm xóa các phần tử có giá trị lẻ trong mảng số nguyên.
+- Đầu vào: Một mảng số nguyên
+- Đầu ra: Mảng chưa các phần tử chẵn
+Ví dụ: int[] arr = {1,2,3,4,5} => {2,4}
+Lưu ý: Không sử dụng vòng lặp for.
+Ngôn ngữ sử dụng : Java
+Yêu cầu làm bài: Xây dựng các hàm để chia nhỏ bài toán
+Gợi ý
+Gợi ý file source.java
+Sử dụng removeIf.
+ */
 }
