@@ -5,7 +5,6 @@ public class JAV2_1_19_KiemTraMangDoiXung {
         int[] a = {1, 2, 3, 2, 1};
         int count = 0;
         for (int i = 0; i < a.length / 2; i++) {
-            // 0 != a[ 5 - 0 - 1 ]
             if (a[i] != a[a.length - i - 1]) {
                 count++;
             }
