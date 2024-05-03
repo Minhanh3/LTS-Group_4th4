@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class BinhLinh {
     private String ten;
-    private int sucManh = 50;
+    private double sucManh = 50;
     private boolean trangBi;
     Scanner sc = new Scanner(System.in);
 
@@ -12,7 +12,6 @@ public class BinhLinh {
         System.out.println("Nhap binh linh");
         ten = sc.nextLine();
         inThongTin();
-        System.out.println();
     }
 
     public BinhLinh(String ten) {
@@ -34,18 +33,17 @@ public class BinhLinh {
     }
 
     public String inThongTin() {
-        return "Ten " + this.ten + " co suc manh " + Math.floor(tinhSucManh(getTen()));
+        return "Ten " + ten + " co suc manh " + sucManh;
     }
-
-    private double tinhSucManh(String ten) {
+    public double tinhSucManh(String ten) {
         double smnew = 0;
-        if (ten.equals("linh")) {
+        if (ten.equalsIgnoreCase("linh")) {
             smnew = sucManh * 1.1;
-        } else if (ten.equals("cung thu")) {
+        } else if (ten.equalsIgnoreCase("cung thu")) {
             smnew = sucManh * 1.3;
-        } else if (ten.equals("kiem si")) {
+        } else if (ten.equalsIgnoreCase("kiem si")) {
             smnew = sucManh * 1.5;
-        } else if (ten.equals("dau si")) {
+        } else if (ten.equalsIgnoreCase("dau si")) {
             smnew = sucManh * 1.7;
         }
         return smnew;
@@ -59,11 +57,11 @@ public class BinhLinh {
         this.ten = ten;
     }
 
-    public int getSucManh() {
+    public double getSucManh() {
         return sucManh;
     }
 
-    public void setSucManh(int sucManh) {
+    public void setSucManh(double sucManh) {
         this.sucManh = sucManh;
     }
 

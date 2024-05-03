@@ -15,5 +15,7 @@ public class Main {
         System.out.println("Sự chênh lệch giữa startDate và endDate là " +
                 different.getYears() + " năm " + different.getMonths() + " tháng và " +
                 different.getDays() + " ngày.");
+        ThoiGian thoiGian = new ThoiGian();
+        System.out.println(thoiGian.inThongTin());
     }
 }

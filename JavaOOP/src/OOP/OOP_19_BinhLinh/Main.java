@@ -4,9 +4,12 @@ public class Main {
     public static void main(String[] args) {
         BinhLinh binhLinh = new BinhLinh();
         System.out.println(binhLinh.inThongTin());
-        BinhLinh binhLinh2 = new BinhLinh("linh", 70);
-        BinhLinh binhLinh1 = new BinhLinh("Manh", 78);
-        BinhLinh.chienDau(binhLinh2, binhLinh1);
+
+        Linh linh = new Linh("linh");
+        CungThu cungthu = new CungThu("cung thu");
+        KiemSi kiemsi = new KiemSi("kiem si");
+        DauSi dausi = new DauSi("dau si");
+        BinhLinh.chienDau(kiemsi, cungthu);
 
     }
 }
