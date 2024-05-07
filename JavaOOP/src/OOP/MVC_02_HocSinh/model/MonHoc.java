@@ -9,7 +9,7 @@ public class MonHoc {
 
     public MonHoc() {
         maMh = InputHelper.inputNumber("Nhap ma mon hoc", " sai");
-        tenMh = InputHelper.StringName("Nhap ten mon hoc", "SAI", 4, 20);
+        tenMh = InputHelper.StringName("Nhap ten mon hoc", "SAI", 2, 20);
         soTiet = InputHelper.inputNumber("Nhap so tiet mon hoc", " sai");
     }
 

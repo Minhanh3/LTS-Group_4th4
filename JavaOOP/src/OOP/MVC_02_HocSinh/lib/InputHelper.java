@@ -11,10 +11,28 @@ public class InputHelper {
         int value = 0;
         try {
             value = Integer.parseInt(sc.nextLine());
+            if (value <= 0 ) {
+                System.out.println("Sai nhap lai");
+                return inputNumber(mes, err);
+            }
             return value;
         } catch (Exception e) {
             System.out.println(err);
             return inputNumber(mes, err);
+        }
+    }public static double inputDiem(String mes, String err) {
+        System.out.println(mes);
+        double value;
+        try {
+            value = Double.parseDouble(sc.nextLine());
+            if (value <= 0.25 && value % 0.25 != 0) {
+                System.out.println("Sai nhap lai");
+                return inputDiem(mes, err);
+            }
+            return value;
+        } catch (Exception e) {
+            System.out.println(err);
+            return inputDiem(mes, err);
         }
     }
 

@@ -4,14 +4,14 @@ import OOP.MVC_02_HocSinh.lib.InputHelper;
 
 import java.time.LocalDate;
 
-public class HocSinh {
+public class HocSinh{
     private int maHS;
     private String tenHs;
     private LocalDate ngaySinh;
 
     public HocSinh() {
         maHS = InputHelper.inputNumber("Nhap ma hoc sinh" , "sai nhap lai");
-        tenHs = InputHelper.StringName("Nhap ten hoc sinh" , "sai nhap lai" , 3 , 50);
+        tenHs = InputHelper.StringName("Nhap ten hoc sinh" , "sai nhap lai" , 2 , 50);
         ngaySinh = LocalDate.parse(InputHelper.StringName("Nhap ngay sinh hoc sinh" , "sai nhap lai" , 7 , 9));
     }
 
