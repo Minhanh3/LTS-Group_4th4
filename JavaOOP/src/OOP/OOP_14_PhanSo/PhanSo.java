@@ -1,5 +1,5 @@
 package OOP.OOP_14_PhanSo;
-
+  
 import java.util.Scanner;
 
 public class PhanSo {
